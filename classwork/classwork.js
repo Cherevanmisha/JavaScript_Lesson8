@@ -1,9 +1,17 @@
 // 1) Напишіть код, який :
 // a) змінює колір тексту елемнту з ід main_header на назву групи в якій ви вчитесь (mon-year)
-
-
+// let group = document.getElementById('main_header');
+// group.classList.add('sep2021');
+// console.log(group);
 
 // b) робить шириниу елементу ul 400px
+
+
+let w = document.getElementsByClassName('ul')
+w.style.background = 'red';
+
+
+
 // c) робить шириниу всіх елементів з класом linkList шириною 50%
 // d) отримує текст який зберігається в елементі з класом listElement2
 // e) отримує всі елементи li та змінює ім колір фону на сірий
