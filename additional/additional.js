@@ -3,6 +3,7 @@
 
 function reCall(startElement) {
     console.log(startElement);
+    let arr = [];
     if (startElement.children.length) {
         for (const element of startElement.children) {
             reCall(element);
