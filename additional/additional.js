@@ -3,7 +3,7 @@
 
 function reCall(startElement) {
     console.log(startElement);
-    let arr = [];
+
     if (startElement.children.length) {
         for (const element of startElement.children) {
             reCall(element);
@@ -12,5 +12,5 @@ function reCall(startElement) {
 
 }
 
-let ret = reCall(document.getElementsByClassName(''));
+let ret = reCall(document.getElementsByClassName('rules'));
 console.log(ret);
